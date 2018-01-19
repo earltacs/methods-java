@@ -18,7 +18,7 @@ public class Seatwork {
     	else if(op.equalsIgnoreCase("Multiply") == true) {multiply();}
     	else if(op.equalsIgnoreCase("Average") == true) {average();}
     	else if(op.equalsIgnoreCase("Stop") == true) {System.exit(0);}
-    	else{System.out.print("Operator not found");}
+    	else{System.out.println("Operator not found\nPlease select again."); main(null);}
     }
     public static void add()
     {
